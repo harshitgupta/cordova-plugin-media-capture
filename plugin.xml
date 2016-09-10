@@ -96,10 +96,15 @@ xmlns:rim="http://www.blackberry.com/ns/widgets"
                 <param name="ios-package" value="CDVCapture" />
             </feature>
         </config-file>
+        <header-file src="src/ios/SDAVAssetExportSession.h" />
+        <source-file src="src/ios/SDAVAssetExportSession.m" />
+        <header-file src="src/ios/UIView+Toast.h" />
+        <source-file src="src/ios/UIView+Toast.m" />
         <header-file src="src/ios/CDVCapture.h" />
         <source-file src="src/ios/CDVCapture.m" />
         <resource-file src="src/ios/CDVCapture.bundle" />
 
+        <framework src="CoreVideo.framework" />
         <framework src="CoreGraphics.framework" />
         <framework src="MobileCoreServices.framework" />
     </platform>
