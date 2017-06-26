@@ -124,7 +124,7 @@
 - (void)pluginInitialize
 {
     self.inUse = NO;
-    self.isCustomMode = YES; //#CustomCode#
+    self.isCustomMode = NO; //#CustomCode#
 }
 
 - (void)captureAudio:(CDVInvokedUrlCommand*)command
